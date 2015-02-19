@@ -1,4 +1,4 @@
-# avwxsummarizer (AKA: Aviation Weather Summarizer)
+# Aviation Weather Summarizer (avwxsummarizer)
 
 [![Build Status](https://travis-ci.org/NicholasMerrill/avwxsummarizer.svg?branch=master)](https://travis-ci.org/NicholasMerrill/avwxsummarizer)
 
