@@ -11,6 +11,10 @@ upon as a primary aviation resource. It also relies on
 [avwx](https://github.com/NicholasMerrill/avwx), a library that is under
 development and potentially unstable.**
 
+## Installation
+
+1. `pip install avwxsummarizer`
+
 ## Examples
 
 ### As a script
