@@ -25,14 +25,13 @@ Go ahead and use it right from the shell if you're feeling lazy.
 
 ## Coming Soon
 
-The Summarizer will soon take into account the following:
-
-* TAFs
-* Winds aloft
-* SIGMETs
-* AIRMETs
-* PIREPs
-
-It will also allow specification of wheels-up time to allow looking ahead
+* The Summarizer will soon take into account the following:
+    * TAFs
+    * Winds aloft
+    * SIGMETs
+    * AIRMETs
+    * PIREPs
+* It will also allow specification of wheels-up time to allow looking ahead
 to tomorrow's weather instead of the default (current weather).
+* Customizable limits/thresholds
 

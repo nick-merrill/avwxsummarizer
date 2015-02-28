@@ -1,5 +1,7 @@
 venv
 
+avwx
+
 *.pyc
 *~
 *.swp

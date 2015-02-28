@@ -1,6 +1,6 @@
 import sys
 
-from avwx.models import Metar, MetarSet
+from avwx.models import Metar, MetarSet, CloudLayer
 
 from colorama import Fore, Back, Style
 
@@ -34,7 +34,7 @@ def get_bad_indicators(metar):
         indicators.append(Indicator('red', "Flight Category: %s" % metar.flight_category))
     if metar.visibility < 8:
         indicators.append(Indicator('red', "Visibility: %.2f sm" % metar.visibility))
-    cloud_base = metar.get_ceiling_cloud_layer()
+    cloud_base = metar.get_ceiling_cloud_layer(CloudLayer.SCATTERED_PCT)
     if cloud_base is not None:
         if cloud_base.height <= 3500:
             indicators.append(Indicator('red', "Cloud Base: %s AGL" % cloud_base))
